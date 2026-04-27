@@ -43,5 +43,25 @@ model/ → entity classes
 
 ## How to run
 
-```bash
 mvn spring-boot:run
+
+API available at:
+http://localhost:8080/tasks
+
+API Endpoints
+GET /tasks
+POST /tasks
+DELETE /tasks/{id}
+
+What I learned
+Spring Boot architecture
+Dependency Injection
+REST API development in Java
+JPA/Hibernate basics
+Layered backend design
+
+Future improvements
+JWT authentication
+User-task relationship
+PostgreSQL integration
+Docker support
