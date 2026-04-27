@@ -48,19 +48,19 @@ mvn spring-boot:run
 API available at:
 http://localhost:8080/tasks
 
-API Endpoints
+## API Endpoints
 GET /tasks
 POST /tasks
 DELETE /tasks/{id}
 
-What I learned
+## What I learned
 Spring Boot architecture
 Dependency Injection
 REST API development in Java
 JPA/Hibernate basics
 Layered backend design
 
-Future improvements
+## Future improvements
 JWT authentication
 User-task relationship
 PostgreSQL integration
