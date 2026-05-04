@@ -37,7 +37,8 @@ Quiz.java → Quiz logic;
 
 ```bash
 javac *.java
-java Main```
+java Main
+```
 
 
 ## What I learned
