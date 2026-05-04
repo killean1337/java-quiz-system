@@ -37,13 +37,15 @@ Quiz.java → Quiz logic;
 
 ```bash
 javac *.java
-java Main
+java Main```
+
 
 ## What I learned
 Structuring Java programs into classes
 Using ArrayList for data storage
 Handling user input with Scanner
 Implementing business logic in Java
+
 ## Future improvements
 Multiple choice questions
 Question categories
