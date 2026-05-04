@@ -1,67 +1,40 @@
+# Quiz System (Java)
 
----
-
-# Java — Spring Boot Task Manager API
-
-```md id="java_readme"
-# Task Manager API (Spring Boot)
-
-A RESTful backend application built with Spring Boot for managing tasks.  
-The project follows a layered architecture (Controller, Service, Repository).
+A console-based quiz application built in Java.  
+This project demonstrates Object-Oriented Programming, collections usage, and interactive user input handling.
 
 ---
 
 ## Features
 
-- Create tasks
-- Retrieve tasks
-- Delete tasks
-- REST API structure
-- Database integration using JPA
+- Multiple quiz questions
+- Answer validation
+- Score tracking
+- Final result summary
 
 ---
 
 ## Tech Stack
 
-- Java 17+
-- Spring Boot
-- Spring Web
-- Spring Data JPA
-- H2 Database
-- Maven
+- Java
+- OOP
+- Collections (ArrayList)
+- Console application
 
 ---
 
 ## Project Structure
 
-controller/ → REST endpoints
-service/ → business logic
-repository/ → database layer
-model/ → entity classes
+
+Main.java → Entry point;
+Question.java → Question model;
+Quiz.java → Quiz logic;
+
 
 ---
 
 ## How to run
 
-mvn spring-boot:run
-
-API available at:
-http://localhost:8080/tasks
-
-## API Endpoints
-GET /tasks
-POST /tasks
-DELETE /tasks/{id}
-
-## What I learned
-Spring Boot architecture
-Dependency Injection
-REST API development in Java
-JPA/Hibernate basics
-Layered backend design
-
-## Future improvements
-JWT authentication
-User-task relationship
-PostgreSQL integration
-Docker support
+```bash
+javac *.java
+java Main
